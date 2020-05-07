@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="et">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>V. Vektor tasandil. Joone võrrand - Matemaatika Materjalid</title>
+
+    <link rel="stylesheet" href="style/main.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML'
+        async></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Matemaatika Materjalid</h1>
+            <h3>Valmistumine riigieksamiks</h3>
+            <!-- <hr class='thinhr'> -->
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <div class="main--grid">
+                <div class="grid--menu">
+                    <div class="menucontent" id='menu'>
+                        <a class='menu-item' href="index.html">Avaleht</a><br>
+                        <a class='menu-item' href="i_avaldised.html">I. Avaldised ja arvuhulgad</a><br>
+                        <a class='menu-item' href="ii_vorrandid.html">II. Võrrandid ja võrrandisüsteemid</a><br>
+                        <a class='menu-item' href="iii_vorratused.html">III. Võrratused. Trigonomeetria I</a><br>
+                        <a class='menu-item' href="iv_trigo.html">IV. Trigonomeetria II</a><br>
+                        <a class='menu-item' href="v_vektor.html">V. Vektor tasandil. Joone võrrand</a><br>
+                        <div class="submenu">
+                            <a href='#subm1' class='submenu-item'>Vektori mõiste ja tähistamine</a><br>
+                            <a href="#subm3" class='submenu-item'>Vektorite võrdsus ja kollineaarsus</a><br>
+                            <a href="#subm4" class='submenu-item'>Vektori koordinaadid ja pikkus</a><br>
+                            <a href="#subm2" class='submenu-item'>Nullvektor, ühikvektor, vastandvektor</a><br>
+                            <a href="#subm6" class='submenu-item'>Vektorite liitmine ja lahutamine</a> <br>
+                            <a href="#subm7" class='submenu-item'>Vektori korrutamine arvuga</a> <br>
+                            <a href="#subm8" class='submenu-item'>Lõigu keskpunkti koordinaadid</a> <br>
+                            <a href="#subm9" class='submenu-item'>Kahe vektori vaheline nurk</a> <br>
+                            <a href="#subm11" class='submenu-item'>Kahe vektori skalaarkorrutis, selle rakendusi,
+                                vektorite ristseis</a> <br>
+                            <a href="#subm12" class='submenu-item'>Kolmnurkade lahendamine vektorite abil</a> <br>
+                            <a href="#subm13" class='submenu-item'>Sirge võrrand ja üldvõrrand</a> <br>
+                            <a href="#subm14" class='submenu-item'>Kahe sirge vastastikused asendid tasandil</a> <br>
+                            <a href="#subm15" class='submenu-item'>Nurk kahe sirge vahel</a> <br>
+                            <a href="#subm16" class='submenu-item'>Ringjoone võrrand</a> <br>
+                            <a href="#subm17" class='submenu-item'>Parabool ja hüperbool</a> <br>
+                            <a href="#subm18" class='submenu-item'>Joone võrrandi mõiste</a> <br>
+                            <a href="#subm19" class='submenu-item'>Kahe joone lõikepunkt</a> <br>
+                        </div>
+                        <a class='menu-item' href="vi_toenaosus.html">VI. Tõenäosus, statistika</a><br>
+                        <a class='menu-item' href="vii_funkts.html">VII. Funktsioonid. Arvjadad</a><br>
+                        <a class='menu-item' href="viii_eksponent.html">VIII. Eksponent- ja logaritmfunktsioon</a><br>
+                        <a class='menu-item' href="ix_trigofun.html">IX. Trigonomeetrilised funktsioonid. Funktsiooni
+                            piirväärtus ja tuletis</a><br>
+                        <a class='menu-item' href="x_tuletis.html">X. Tuletise rakendused</a><br>
+                        <a class='menu-item' href="xi_integral.html">XI. Integraal. Planimeetria</a><br>
+                        <a class='menu-item' href="xii_sirge.html">XII. Sirge ja tasand ruumis</a><br>
+                        <a class='menu-item' href="xiii_stereo.html">XIII. Stereomeetria</a><br>
+                        <a class='menu-item' href="xiv_rakendus.html">XIV. Matemaatika rakendused, reaalsete protsesside
+                            uurimine</a>
+                    </div>
+                </div>
+                <div class="grid--content">
+                    <h2 class='content-title'>V. Vektor tasandil. Joone võrrand</h2>
+                    <hr class='thinhr'>
+                    <h3 id='subm1'>Vektori mõiste ja tähistamine</h3>
+                    <p>Vektor on <strong>suunatud lõik</strong> ning tähistamiseks kasutatakse selle otspunkte, näiteks
+                        \( \overrightarrow{AB} \) või lühedamalt \(\displaystyle \vec{a}\). Vektori alguspunkt
+                        kirjutatakse alati esimesena ja lõpp-punkt teisena. Peale suuna on vektoril ka siht, mis on
+                        määratud sirgega.</p>
+                    <h3 id="subm3">Vektorite võrdsus ja kollineaarsus</h3>
+                    <p>Vektorid on võrdsed, kui neil on üks ja sama suund, siht ja võrdne pikkus. Kui vektorid on
+                        võrdsed, siis on ka võrdsed nende vastavad koordinaadid.</p>
+                    <p>
+                        <strong>Kollineaarsed</strong> vektorid on samasihilised, ehk paralleelsed. Samasihilised
+                        vektorid võivad olla samasuunalised ja vastassuunalised. Tähistamiseks kasutatakse \(\vec{a}
+                        \uparrow \uparrow \vec{b}\) ja \(\vec{a} \uparrow \downarrow \vec{b}\).
+                    </p>
+                    <p>
+                        Kollineaarsete vektorite puhul kehtib seos
+                    </p>
+                    <p>
+                        $$ \frac{x_2}{x_1} = \frac{y_2}{y_1} $$
+                    </p>
+                    <h3 id="subm4">Vektori koordinaadid ja pikkus</h3>
+                    <p>
+                        Kui liikuda punktist \(A\) punkti \(B\) vektori \( \overrightarrow{AB} \) suunas, siis saame
+                        arvutada punkti \(B\) koordinaadid lisades punkti \(A\) koordinaatidele nende muudud x-teljel ja
+                        y-teljel.
+                    </p>
+                    <p>
+                        $$ \overrightarrow{AB} = (x_2 - x_1;\ y_2 - y_1) $$
+                    </p>
+
+                    <!-- <div class="examp ex-closed">
+                        <span class="ex-open" onclick="this.parentElement.classList.toggle('ex-opened');">Näide</span>
+                        <p></p>
+                    </div> -->
+
+                    <p>
+                        Vektori pikkuse leidmiseks saab kasutada Pythagorase teoreemi. Vektori pikkust tähistatakse
+                        samuti nagu absoluutväärtust \(\displaystyle |AB|\).
+                    </p>
+
+                    <p>
+                        $$ |AB| = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} $$
+                    </p>
+
+                    <div class="examp ex-closed">
+                        <span class="ex-open" onclick="this.parentElement.classList.toggle('ex-opened');">Näide</span>
+                        <p></p>
+                    </div>
+
+                    <h3 id="subm2">Nullvektor, ühikvektor, vastandvektor</h3>
+                    <p>
+                        <strong>Nullvektor</strong> on vektor pikkusega 0. Nullvektoril puudub siht ja suund, kuid võib
+                        öelda, et nullvektoril on mis tahes suund.
+                    </p>
+                    <p>
+                        <strong>Ühikvektori</strong> pikkus on 1.
+                    </p>
+                    <p>
+                        Vektori <strong>vastandvektor</strong> omab sama sihta ja pikkust, kuid selle suund on erinev.
+                        Vektori \(\vec{a}\) vastandvektori tähistamiseks kasutatakse \(-\vec{a}\).
+                    </p>
+                    <h3 id="subm6">Vektorite liitmine ja lahutamine</h3>
+                    <p>
+                        Kahe vektori summa leidmiseks kasutatakse <strong>kolmnurgareeglit.</strong>
+                    </p>
+                    <p>
+                        Hulknurgareegel...
+                    </p>
+                    <p>
+                        Rööpküülikureegel...
+                    </p>
+                    <p>
+                        Selleks, et lahutada üks vektor teisest, tuleb esimesele liita teise vektori vastandvektor.
+                    </p>
+                    <p>
+                        $$ \vec{u} - \vec{v} = \vec{u} + (-\vec{v}) $$
+                    </p>
+
+                    <div class="examp ex-closed">
+                        <span class="ex-open" onclick="this.parentElement.classList.toggle('ex-opened');">Näide</span>
+                        <p></p>
+                    </div>
+
+                    <h3 id="subm7">Vektori korrutamine arvuga</h3>
+                    <p>
+                        Kui korrutada vektor \(\vec{u}\) positiivse arvuga \(k\), siis saame \(k\) korda pikkema
+                        vektori, mille siht ja suund on samad, kui vektoril \(\vec{u}\).
+                    </p>
+                    <p>
+                        $$ k \cdot \vec{a} = (k\cdot x_1;\ k\cdot y_1) $$
+                    </p>
+                    <h3 id="subm8">Lõigu keskpunkti koordinaadid</h3>
+                    <p>
+                        $$ M = \left( \frac{x_1 + x_2}{2} ;\ \frac{y_1 + y_2}{2} \right) $$
+                    </p>
+                    <h3 id="subm9">Kahe vektori vaheline nurk</h3>
+                    <p>
+                        $$ \cos{\alpha} = \frac{\vec a \cdot \vec b }{|\vec a| \cdot |\vec b|} $$
+                    </p>
+                    <h3 id="subm11">Kahe vektori skalaarkorrutis, selle rakendusi, vektorite ristseis</h3>
+                    <p>
+                        \( \vec a \cdot \vec b = x_1 \cdot x_2 + y_1 \cdot y_2 \)
+                    </p>
+                    <p>
+                        \(\displaystyle \vec{a} \perp \vec{b} \), kui \(\vec{a} \cdot \vec{b} = 0\).
+                    </p>
+                    <h3 id="subm12">Kolmnurkade lahendamine vektorite abil</h3>
+                    <h3 id="subm13">Sirge võrrand ja üldvõrrand</h3>
+                    <h3 id="subm14">Kahe sirge vastastikused asendid tasandil</h3>
+                    <h3 id="subm15">Nurk kahe sirge vahel</h3>
+                    <h3 id="subm16">Ringjoone võrrand</h3>
+                    <h3 id="subm17">Parabool ja hüperbool</h3>
+                    <h3 id="subm18">Joone võrrandi mõiste</h3>
+                    <h3 id="subm19">Kahe joone lõikepunkt</h3>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <hr class="thinhr">
+            <div class="footer-flex">
+                <p class='footer-note'>2020 - Anton Slavin</p>
+                <a href="#">Tagasi üles</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script/main.js"></script>
+
+</body>
+
+</html>
