@@ -12,7 +12,7 @@ Materjal on jaotatud kursusteks ja teemadeks [Innove laia matemaatika õppekava]
 * Iga teema juures kõik vajalikud valemid.
 * Võimalusel lisatud ka lühikesed näited.
 
-Hetkel on kasutatud vaid puhas HTML, CSS ja MathJax.
+Hetkel on kasutatud vaid puhas HTML, CSS ja MathJax. Iga kursuse jaoks on eraldi käsitsi tehtud lehekülg (🤢).
 
 Plaan pudub, aga mõned eesmärgid:
 - [ ] kasutusele võetud Vue/React
