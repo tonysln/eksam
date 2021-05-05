@@ -17,7 +17,7 @@ Materjal on jaotatud kursusteks ja teemadeks [Innove laia matemaatika õppekava]
 Eesmärgid:
 - [ ] mõisted iga teema juures
 - [x] kasutusele võetud Vue.js
-- [ ] [history mode](https://router.vuejs.org/guide/essentials/history-mode.html)
+- [x] [history mode](https://router.vuejs.org/guide/essentials/history-mode.html)
 - [ ] Vue MathJax plugin
 - [ ] näited ja lahendused iga kursuse juures
 - [ ] lisatud interaktiivsus
