@@ -11,7 +11,7 @@
       <router-view />
     </div>
   </div>
-  <Footer v-if="$route.name !== 'Home'" />
+  <Footer v-show="$route.name !== 'Home'" />
 </template>
 
 <script>
@@ -105,7 +105,7 @@ header h1 {
 
 .menu-item {
   margin-bottom: 10px;
-  display: inline-block;
+  display: block;
 }
 
 .submenu {
@@ -117,7 +117,7 @@ header h1 {
 
 .submenu-item {
   margin-bottom: 8px;
-  display: inline-block;
+  display: block;
   color: #333;
 }
 
