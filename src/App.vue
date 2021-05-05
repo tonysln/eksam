@@ -40,7 +40,7 @@ html {
 }
 body {
   font-size: 1.6rem;
-  font-family: sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   width: 100%;
   color: #3a3a3a;
@@ -172,5 +172,27 @@ footer {
   padding-bottom: 20px;
   display: flex;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 949px) {
+  .container {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .main--grid {
+    grid-template-columns: 1fr;
+  }
+  .grid--content p {
+    padding-left: 0;
+  }
+}
+
+@media screen and (min-width: 950px) and (max-width: 1124px) {
+  .main--grid {
+    /* grid-template-columns: 30% 70%; */
+    grid-template-columns: 3fr 7fr;
+    grid-gap: 16px;
+  }
 }
 </style>

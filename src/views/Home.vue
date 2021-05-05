@@ -3,7 +3,7 @@
     <h2 class="content-title">Avaleht</h2>
     <hr class="thinhr" />
     <p>
-      Kasutatud materjalid: <a href="http://welovemath.ee">We Love Math</a>,
+      Kasutatud: <a href="http://welovemath.ee">We Love Math</a>,
       <a
         href="https://e-koolikott.ee/portfolio?name=Digioppevaramu_matemaatika_mat&id=20179"
         >Digiõppevaramu matemaatika materjalid</a
@@ -15,7 +15,11 @@
       <strong>NB!</strong> Hetkel on soovitatav ekraani laius vähemalt 700px
       (nt. väike tahvelarvuti).
     </p>
-    <p>Autor: <a href="https://github.com/tonysln">Anton Slavin</a></p>
+    <p>
+      Autor: <a href="https://github.com/tonysln">Anton Slavin</a><br />Projekti
+      repo
+      <a href="https://github.com/tonysln/eksam">GitHubis</a>
+    </p>
 
     <h2 class="content-title" style="margin-top: 40px">Kasulikku</h2>
     <hr class="thinhr" />

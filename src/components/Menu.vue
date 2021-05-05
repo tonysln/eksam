@@ -7,13 +7,13 @@
           course.title
         }}</router-link>
         <div v-show="$route.path === '/' + course.route" class="submenu">
-          <a
+          <p
             v-for="(chapter, ch_idx) of course.chapters"
             :key="ch_idx"
-            :href="chapterID(co_idx, ch_idx)"
             class="submenu-item"
-            >{{ chapter }}</a
           >
+            {{ chapter }}
+          </p>
         </div>
       </div>
     </div>
@@ -25,13 +25,8 @@ import courses from '@/data/courses.json';
 
 export default {
   setup() {
-    function chapterID(coIdx, chIdx) {
-      return `kursus${coIdx + 1}_ch${chIdx + 1}`;
-    }
-
     return {
       courses,
-      chapterID,
     };
   },
 };

@@ -104,4 +104,12 @@ const router = createRouter({
   routes,
 });
 
+// OK I have absolutely NO idea why this work ONLY when
+// calling typesetPromise and then typeset() AGAIN
+// TODO future me: please find a fix for this
+router.afterEach(() => {
+  window.MathJax.typesetPromise()
+    .then(() => window.MathJax.typeset());
+});
+
 export default router;

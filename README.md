@@ -1,7 +1,7 @@
 # Matemaatika Materjalid
 📚 Valmistumine matemaatika riigieksamiks
 
-**See on dev-vue branch - täielik saidi rewrite Vue.js 3 peal.**
+**See on dev-vue branch - täielik projekti rewrite Vue.js 3 peal.**
 
 Alustatud aastal 2019.
 
@@ -14,10 +14,9 @@ Materjal on jaotatud kursusteks ja teemadeks [Innove laia matemaatika õppekava]
 * Iga teema juures kõik vajalikud valemid.
 * Võimalusel lisatud ka lühikesed näited.
 
-Eesmärgid:
-- [ ] mõisted iga teema juures
+To-Do:
 - [x] kasutusele võetud Vue.js
 - [x] [history mode](https://router.vuejs.org/guide/essentials/history-mode.html)
-- [ ] Vue MathJax plugin
+- [ ] 'Tagasi üles' link taastatud
+- [ ] mõisted iga teema juures
 - [ ] näited ja lahendused iga kursuse juures
-- [ ] lisatud interaktiivsus
