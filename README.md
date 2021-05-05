@@ -18,5 +18,9 @@ To-Do:
 - [x] kasutusele võetud Vue.js
 - [x] [history mode](https://router.vuejs.org/guide/essentials/history-mode.html)
 - [ ] 'Tagasi üles' link taastatud
+- [ ] fix localStorage.getItem() retrieval in data()
+- [ ] fix dark theme colors & page height
+- [ ] add icon for dark theme toggle button
+- [ ] move CSS into external file
 - [ ] mõisted iga teema juures
 - [ ] näited ja lahendused iga kursuse juures

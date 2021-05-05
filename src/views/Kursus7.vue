@@ -27,8 +27,8 @@
       <strong> y-telje</strong> suhtes.
     </p>
     <p>
-      Paaritufunktsiooni puhul kehtib seos: \(\displaystyle f(-x) = -f(x)\) ning
-      funktsiooni graafik on alati sümmeetriline
+      Paaritu funktsiooni puhul kehtib seos: \(\displaystyle f(-x) = -f(x)\)
+      ning funktsiooni graafik on alati sümmeetriline
       <strong>koordinaatide alguspunkti </strong> suhtes.
     </p>
     <p>Kõik ülejäänud funktsioonid ei ole paaris ega paaritu funktsioonid.</p>
