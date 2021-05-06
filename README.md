@@ -20,7 +20,7 @@ To-Do:
 - [x] fix localStorage.getItem() retrieval in data()
 - [x] fix dark theme colors & page height
 - [x] add icon for dark theme toggle button
-- [ ] 'Tagasi üles' link taastatud
+- [x] 'Tagasi üles' link taastatud
 - [ ] move CSS into external file
 - [ ] mõisted iga teema juures
 - [ ] näited ja lahendused iga kursuse juures
