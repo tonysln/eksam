@@ -21,6 +21,6 @@ To-Do:
 - [x] fix dark theme colors & page height
 - [x] add icon for dark theme toggle button
 - [x] 'Tagasi üles' link taastatud
-- [ ] move CSS into external file
+- [x] move CSS into external file
 - [ ] mõisted iga teema juures
 - [ ] näited ja lahendused iga kursuse juures
