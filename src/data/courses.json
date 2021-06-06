@@ -1,0 +1,232 @@
+[
+  {
+    "title": "I. Avaldised ja arvuhulgad", 
+    "route": "kursus1", 
+    "chapters": [
+      "Arvuhulgad", 
+      "Absoluutväärtus", 
+      "Tehted arvu astmetega", 
+      "Tehted arvu juurtega", 
+      "Abivalemid"
+    ]
+  },
+  {
+    "title": "II. Võrrandid ja võrrandisüsteemid", 
+    "route": "kursus2", 
+    "chapters": [
+      "Võrdus, võrrand",
+      "Võrrandite samaväärsus",
+      "Lineaar-, ruut-, murd- ja juurvõrrandid",
+      "Absoluutväärtust sisaldavad võrrandid",
+      "Võrrandisüsteemid",
+      "Kahe- ja kolmerealine determinant",
+      "Tekstülesanded"
+    ]
+  },
+  {
+    "title": "III. Võrratused. Trigonomeetria I", 
+    "route": "kursus3", 
+    "chapters":[
+      "Võrratuse omadused",
+      "Lineaarvõrratused",
+      "Ruutvõrratused",
+      "Intervallmeetod",
+      "Murdvõrratused",
+      "Võrratusesüsteemid",
+      "Teravnurga siinus, koosinus ja tangens",
+      "Täiendusnurga trigonomeetrilised funktsioonid",
+      "Trigonomeetrilised põhiseosed täisnurkses kolmnurgas"
+    ]
+  },
+  {
+    "title": "IV. Trigonomeetria II", 
+    "route": "kursus4", 
+    "chapters": [
+      "Nurga kraadi- ja radiaanmõõt",
+      "Mis tahes nurga trigonomeetrilised funktsioonid",
+      "Nurkade sin, cos ja tan täpsed väärtused",
+      "Seosed ühe ja sama nurga trigonomeetriliste funktsioonide vahel",
+      "Taandamisvalemid",
+      "Kahe nurga summa ja vahe trigonomeetrilised funktsioonid",
+      "Kahekordse nurga trigonomeetrilised funktsioonid",
+      "Trigonomeetrilised avaldised",
+      "Ringjoone kaare pikkus, ringi sektori pindala",
+      "Kolmnurga pindala valemid",
+      "Siinus- ja koosinusteoreem",
+      "Kolmnurga lahendamine",
+      "Rakendusülesanded"
+    ]
+  },
+  {
+    "title": "V. Vektor tasandil. Joone võrrand", 
+    "route": "kursus5", 
+    "chapters": [
+      "Vektori mõiste ja tähistamine",
+      "Vektorite võrdsus ja kollineaarsus",
+      "Vektori koordinaadid ja pikkus",
+      "Nullvektor, ühikvektor, vastandvektor",
+      "Vektorite liitmine ja lahutamine",
+      "Vektori korrutamine arvuga",
+      "Lõigu keskpunkti koordinaadid",
+      "Kahe vektori vaheline nurk",
+      "Kahe vektori skalaarkorrutis, selle rakendusi, vektorite ristseis",
+      "Kolmnurkade lahendamine vektorite abil",
+      "Sirge võrrand ja üldvõrrand",
+      "Kahe sirge vastastikused asendid tasandil",
+      "Nurk kahe sirge vahel",
+      "Ringjoone võrrand",
+      "Parabool ja hüperbool",
+      "Joone võrrandi mõiste",
+      "Kahe joone lõikepunkt"
+    ]
+  },
+  {
+    "title": "VI. Tõenäosus, statistika", 
+    "route": "kursus6", 
+    "chapters": [
+      "Sündmus. Sündmuste liigid",
+      "Klassikaline tõenäosus",
+      "Permutatsioonid, kombinatsioonid ja variatsioonid",
+      "Sündmuste liigid: sõltuvad ja sõltumatud, välistavad ja mittevälistavad",
+      "Tõenäosuste liitmine ja korrutamine",
+      "Bernoulli valem",
+      "Keskväärtus, mood, mediaan, dispersioon, standardhälve",
+      "Rakendusülesanded",
+      "Üldkogum ja valim",
+      "Normaaljaotus"
+    ]
+  },
+  {
+    "title": "VII. Funktsioonid. Arvjadad", 
+    "route": "kursus7", 
+    "chapters": [
+      "Funktsiooni mõiste ja üldtähis",
+      "Funktsiooni määramis- ja muutumispiirkond",
+      "Paaris- ja paaritu funktsioon",
+      "Funktsiooni nullkohad, positiivsus- ja negatiivsuspiirkond",
+      "Funktsiooni kasvamine ja kahanemine",
+      "Funktsiooni ekstreemum",
+      "Astmefunktsioon",
+      "Funktsioonide graafikud ja omadused",
+      "Aritmeetiline jada, selle omadused",
+      "Aritmeetilise jada üldliikme valem ning esimese n liikme summa valem",
+      "Geomeetriline jada, selle omadused",
+      "Geomeetrilise jada üldliikme valem ning esimese n liikme summa valem",
+      "Hääbuv geomeetriline jada, selle summa",
+      "Arvjada piirväärtus. Piirväärtuse arvutamine",
+      "Arv e piirväärtusena",
+      "Ringjoone pikkus ja ringi pindala piirväärtusena, arv π",
+      "Rakendusülesanded"
+    ]
+  },
+  {
+    "title": "VIII. Eksponent- ja logaritmfunktsioon", 
+    "route": "kursus8", 
+    "chapters": [
+      "Liitprotsendiline kasvamine ja kahanemine",
+      "Eksponentfunktsioon, selle graafik ja omadused",
+      "Arvu logaritm",
+      "Korrutise, jagatise ja astme logaritm",
+      "Logaritmimine ja potentseerimine",
+      "Üleminek logaritmi ühelt aluselt teisele",
+      "Logaritmfunktsioon, selle graafik ja omadused",
+      "Pöördfunktsiooni mõiste eksponent- ja logaritmfunktsiooni näitel",
+      "Eksponent- ja logaritmvõrrand, nende lahendamine",
+      "Rakendusülesanded",
+      "Eksponent- ja logaritmvõrratus"
+    ]
+  },
+  {
+    "title": "IX. Trigonomeetrilised funktsioonid. Funktsiooni piirväärtus ja tuletis", 
+    "route": "kursus9",
+    "chapters": [
+      "Funktsiooni perioodilisus",
+      "Sin, cos ja tan funktsiooni graafik ning omadused",
+      "Mõisted arcsin m, arccos m, arctan m",
+      "Lihtsamad trigonomeetrilised võrrandid",
+      "Funktsiooni piirväärtus ja pidevus",
+      "Argumendi muut ja funktsiooni muut",
+      "Hetkkiirus",
+      "Funktsiooni graafiku puutuja tõus",
+      "Funktsiooni tuletise mõiste",
+      "Funktsioonide summa ja vahe tuletis",
+      "Kahe funktsiooni korrutise tuletis",
+      "Astmefunktsiooni tuletis",
+      "Kahe funktsiooni jagatise tuletis",
+      "Funktsiooni teine tuletis",
+      "Liitfunktsioon ja selle tuletise leidmine",
+      "Trigonomeetriliste funktsioonide tuletised",
+      "Eksponent- ja logaritmfunktsiooni tuletis",
+      "Tuletiste tabel"
+    ]
+  },
+  {
+    "title": "X. Tuletise rakendused", 
+    "route": "kursus10", 
+    "chapters": [
+      "Puutuja tõus",
+      "Joone puutuja võrrand",
+      "Funktsiooni kasvamis- ja kahanemisvahemik, funktsiooni ekstreemum",
+      "Funktsiooni suurim ja vähim väärtus lõigul",
+      "Funktsiooni graafiku kumerus- ja nõgususvahemik, käänupunkt",
+      "Funktsiooni uurimine tuletise abil",
+      "Funktsiooni graafiku skitseerimine funktsiooni omaduste põhjal",
+      "Rakendusülesanded",
+      "Ekstreemumülesanded"
+    ]
+  },
+  {
+    "title": "XI. Integraal. Planimeetria", 
+    "route": "kursus11", 
+    "chapters": [
+      "Algfunktsioon. Määramata integraal",
+      "Integraali omadused",
+      "Määratud integraal. Kõvertrapetsi pindala",
+      "Pindala arvutamine",
+      "Pöördkeha ruumala ja töö arvutamine",
+      "Kolmnurk",
+      "Ring ja ringjoon",
+      "Hulknurk",
+      "Rööpkülik ja trapets"
+    ]
+  },
+  {
+    "title": "XII. Sirge ja tasand ruumis", 
+    "route": "kursus12", 
+    "chapters": [
+      "Nurk kahe sirge, sirge ja tasandi ning kahe tasandi vahel",
+      "Sirgete ja tasandite ristseis, paralleelsus",
+      "Kolme ristsirge teoreem",
+      "Hulknurga projektsiooni pindala",
+      "Ristkoordinaadid ruumis",
+      "Punkti koordinaadid ruumis, punkti kohavektor",
+      "Vektori koordinaadid ruumis, vektori pikkus",
+      "Lineaartehted vektoritega",
+      "Vektorite kollineaarsus ja komplanaarsus",
+      "Kahe vektori skalaarkorrutis, vaheline nurk",
+      "Sirge võrrandid ruumis, tasandi võrrand",
+      "Sirge ja tasandi lõikepunkt, võrranditega antud sirgete vahelise nurga leidmine",
+      "Rakendusülesanded"
+    ]
+  },
+  {
+    "title": "XIII. Stereomeetria", 
+    "route": "kursus13", 
+    "chapters": [
+      "Prisma ja püramiid, nende pindala ja ruumala",
+      "Korrapärased hulktahukad",
+      "Pöördkehad. Silinder, koonus ja kera, nende pindala ja ruumala",
+      "Kera segment, kiht, vöö ja sektor",
+      "Ülesanded hulktahukate ja pöördkehade kohta",
+      "Hulktahukate ja pöördkehade lõiked tasandiga",
+      "Rakendusülesanded"
+    ]
+  },
+  {
+    "title": "XIV. Matemaatika rakendused, reaalsete protsesside uurimine", 
+    "route": "kursus14", 
+    "chapters": [
+      "Tekstülesannete lahendamine"
+    ]
+  }
+]
