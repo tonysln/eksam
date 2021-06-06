@@ -1,8 +1,6 @@
 # Matemaatika Materjalid
 📚 Valmistumine matemaatika riigieksamiks
 
-**See on dev-vue branch - täielik projekti rewrite Vue.js 3 peal.**
-
 Alustatud aastal 2019.
 
 Eesmärgiks on luua matemaatika materjalide kogumik, mis aitaks valmistuda riigieksamiks.
