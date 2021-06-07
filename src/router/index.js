@@ -104,9 +104,9 @@ const router = createRouter({
   routes,
 });
 
-// OK I have absolutely NO idea why this work ONLY when
+// OK I have absolutely NO idea why this works ONLY when
 // calling typesetPromise and then typeset() AGAIN
-// TODO future me: please find a fix for this
+// TODO: find a fix for this - replace afterEach with smth?
 router.afterEach(() => {
   window.MathJax.typesetPromise()
     .then(() => window.MathJax.typeset());
