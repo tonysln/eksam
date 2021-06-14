@@ -3,6 +3,7 @@
     <h2 class="content-title">I. Avaldised ja arvuhulgad</h2>
     <hr class="thinhr" />
     <h3 id="subm1">Arvuhulgad</h3>
+    <!-- <p>\( N \) - Kõik naturaalarvud</p> -->
     <p>
       Kõik naturaalarvud moodustavad hulga \( N \) <br />
       Negatiivsed ja positiivsed täisarvud ning arv \( 0 \) moodustavad hulga \(
