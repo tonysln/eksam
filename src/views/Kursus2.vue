@@ -75,7 +75,7 @@
       \[ \left\{\begin{array}{l}{F(x)=0} \\ {G(x) \neq 0}\end{array}\right. \]
     </p>
     <p>
-      <strong>Juurvõrrandit</strong> lahendamisel tuleb kindlasti teha kontroll,
+      <strong>Juurvõrrandi</strong> lahendamisel tuleb kindlasti teha kontroll,
       sest võrrandi poolte paarisarvulise astendajaga astendamisel võivad
       tekkida võõrlahendid.
     </p>
@@ -86,7 +86,7 @@
         onclick="this.parentElement.classList.toggle('ex-opened');"
         >Näide</span
       >
-      <p>Lahenda võrrand \(x+\sqrt{x^{2}-x+10}=7\).</p>
+      <p><em>Lahenda võrrand</em> \(x+\sqrt{x^{2}-x+10}=7\).</p>
       <p>\(\sqrt{x^{2}-x+10}=7-x\left|( )^{2}\right.\)</p>
       <p>\(x^{2}-x+10=(7-x)^{2}\)</p>
       <p>\(x^{2}-x+10=49-14 x+x^{2}\)</p>
